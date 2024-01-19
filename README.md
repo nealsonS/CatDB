@@ -1,3 +1,4 @@
+<pre>
 CatDB is a NoSQL DBMS that employs scanning, sorting, joining, filtering, grouping, aggregation, and CRUD operations (implemented as REST API) that interact only with chunks of a dataset (to minimize memory usage).
 CatDB has a custom cat-like query language with a fully implemented query execution engine to be used on a command-line interface.
 All algorithms are implemented in Python from scratch.
@@ -6,7 +7,6 @@ This is my final project for my Foundations on Data Management class at USC.
 Please open the "Report.pdf" for the final report of the project!
 Please launch by launching launch.py in the Scripts folder!
 
-For reasons
 Please download a dataset with NDJSON format, place it in data folder, and use only its filename like:
 "yelp_review.json" as "yelp_review"
 
@@ -74,6 +74,7 @@ ASSUME DATA is a valid form of JSON in the form of {"key": "val"}
 
 GET: steal this thing [URL in JSON_fileName]
 PUT: add/change this thing [DATA in URL in JSON_fileName]
+</pre>
 POST: slip in this thing [DATA in URL in JSON_fileName]
 DELETE: destroy this thing [URL in JSON_fileName]
 Create: make this thing [JSON_fileName]
