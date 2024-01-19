@@ -74,8 +74,9 @@ ASSUME DATA is a valid form of JSON in the form of {"key": "val"}
 
 GET: steal this thing [URL in JSON_fileName]
 PUT: add/change this thing [DATA in URL in JSON_fileName]
-</pre>
+
 POST: slip in this thing [DATA in URL in JSON_fileName]
 DELETE: destroy this thing [URL in JSON_fileName]
 Create: make this thing [JSON_fileName]
 
+</pre>
